@@ -1,12 +1,22 @@
+.background{
+    width: 100%;
+}
+
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: auto;
+  position: relative;
 }
 
 .maxWidthWrapper {
+    position: relative;
 }
 
 .header {
+    width: 65%;
   padding-bottom: 64px;
 }
 
@@ -24,7 +34,29 @@
 }
 
 .characterWrapper {
+    position: fixed;
+    left: 60%;
+    bottom: 5%;
+    top: 15%;
+    width: 35%;
+    display: inline-block;
+    min-height: 500px;
+    display: inline-block;
 }
 
-.controlColumn {
+.background{
+    position: fixed;
 }
+.controlColumn {
+    width: 50%;
+}
+.background{
+    bottom: 0;
+    position: fixed;
+    height: 400px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: aliceblue
+}
+
